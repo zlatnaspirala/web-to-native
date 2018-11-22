@@ -2,6 +2,7 @@
 #include <vector>
 #include <stdio.h>
 #include <string>
+#include "lib/myspace.h"
 using namespace std;
 
 class Rectangle {
@@ -24,7 +25,13 @@ int main(int argc, char *argv[]) {
   
   Rectangle rect;
   rect.set_values (3,4);
-  cout << "area: " << rect.area();
+  cout << "area: " << rect.area() << endl;
+
+  My_class t;
+  t.doit();
+
+  std::string myPlatform = t.getPlatform();
+  cout << myPlatform << endl;;
 
   return 0;
 

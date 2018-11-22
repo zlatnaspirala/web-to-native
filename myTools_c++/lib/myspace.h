@@ -1,9 +1,8 @@
-namespace N
-{
-    class my_class
-    {
-    public:
-        void do_something();
-    };
+#include <string>
 
-}
+class My_class
+{
+    public:
+        void doit();
+        std::string getPlatform ();
+};
