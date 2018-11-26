@@ -1,12 +1,17 @@
-Open Release/Chromium Embedded Framework.framework/ and extract here zip file : 
+ -We can use this part of project like native desktop wrapper for our web app!
+
+1) Step before running xCode project.
+
+-Open Release/Chromium Embedded Framework.framework/ and extract here zip file : 
+Chromium Embedded Framework.zip
+-Do it same intro Debug/Chromium Embedded Framework.framework/
 Chromium Embedded Framework.zip
 
-Do it same intro Debug/Chromium Embedded Framework.framework/Chromium Embedded Framework.zip
-
 This is fix for github 100mb max filesize!
-
 You can put this file in ignore list for git!
 
+
+About Chromium  :
 -------------------------------------------------------------------------------
 Chromium Embedded Framework (CEF) Standard Binary Distribution for Mac OS-X
 -------------------------------------------------------------------------------
