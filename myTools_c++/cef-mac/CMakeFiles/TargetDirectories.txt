@@ -1,0 +1,10 @@
+/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/ALL_BUILD.dir
+/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/ZERO_CHECK.dir
+/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir
+/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/tests/cefclient/CMakeFiles/cefclient.dir
+/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/tests/cefclient/CMakeFiles/cefclient_Helper.dir
+/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/tests/cefsimple/CMakeFiles/cefsimple.dir
+/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/tests/cefsimple/CMakeFiles/cefsimple_Helper.dir
+/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/tests/gtest/CMakeFiles/cef_gtest.dir
+/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/tests/ceftests/CMakeFiles/ceftests.dir
+/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/tests/ceftests/CMakeFiles/ceftests_Helper.dir

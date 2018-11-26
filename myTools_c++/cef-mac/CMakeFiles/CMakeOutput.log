@@ -1,0 +1,831 @@
+The system is: Darwin - 16.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.12 -g -fvisibility=hidden -Wno-sign-conversion -Wno-infinite-recursion -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CMakeCCompilerId.c -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+
+Ld CompilerIdC normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_lto.o -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC
+
+PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC"
+    /bin/sh -c \"/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh\"
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+CURRENT_ARCH=x86_64
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.12 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+Ld CompilerIdCXX normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX
+
+PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX"
+    /bin/sh -c \"/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh\"
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+CURRENT_ARCH=x86_64
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_eaa3f" "-configuration" "Debug"
+=== BUILD TARGET cmTC_eaa3f OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eaa3f.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eaa3f.build/Objects-normal/x86_64/cmTC_eaa3f.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_eaa3f.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eaa3f.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eaa3f.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eaa3f.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eaa3f.build/Objects-normal/x86_64/testCCompiler.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/testCCompiler.c -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eaa3f.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTC_eaa3f normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eaa3f.build/Objects-normal/x86_64/cmTC_eaa3f.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eaa3f.build/Objects-normal/x86_64/cmTC_eaa3f_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eaa3f.build/Objects-normal/x86_64/cmTC_eaa3f_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_eaa3f
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_f890b" "-configuration" "Debug"
+=== BUILD TARGET cmTC_f890b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCCompilerABI.c -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTC_f890b normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_f890b
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_f890b -L/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b.LinkFileList -object_path_lto /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a -F/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-278.4
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
+Framework search paths:
+	/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_f890b" "-configuration" "Debug"]
+  ignore line: [=== BUILD TARGET cmTC_f890b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64]
+  ignore line: [write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCCompilerABI.c -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_f890b normal x86_64]
+  ignore line: [    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.12]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_f890b]
+  ignore line: [Apple LLVM version 8.1.0 (clang-802.0.42)]
+  ignore line: [Target: x86_64-apple-darwin16.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_f890b -L/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b.LinkFileList -object_path_lto /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a -F/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_f890b -filelist /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b.LinkFileList -object_path_lto /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_f890b -filelist /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b.LinkFileList -object_path_lto /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.12.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Volumes/POMOCNI/c++/tools] ==> ignore
+    arg [gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_f890b] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Volumes/POMOCNI/c++/tools] ==> ignore
+    arg [gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Volumes/POMOCNI/c++/tools] ==> ignore
+    arg [gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Volumes/POMOCNI/c++/tools] ==> ignore
+    arg [gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f890b.build/Objects-normal/x86_64/cmTC_f890b_dependency_info.dat] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  Framework search paths: [;/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug] ==> [/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  collapse framework dir [/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug] ==> [/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_5c97b" "-configuration" "Debug"
+=== BUILD TARGET cmTC_5c97b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5c97b.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5c97b.build/Objects-normal/x86_64/cmTC_5c97b.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_5c97b.build/Objects-normal/x86_64/feature_tests.o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5c97b.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5c97b.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -std=c11 -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5c97b.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5c97b.build/Objects-normal/x86_64/feature_tests.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.c -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5c97b.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_5c97b normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5c97b.build/Objects-normal/x86_64/cmTC_5c97b.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5c97b.build/Objects-normal/x86_64/cmTC_5c97b_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5c97b.build/Objects-normal/x86_64/cmTC_5c97b_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_5c97b
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_3bb8c" "-configuration" "Debug"
+=== BUILD TARGET cmTC_3bb8c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3bb8c.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3bb8c.build/Objects-normal/x86_64/cmTC_3bb8c.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_3bb8c.build/Objects-normal/x86_64/feature_tests.o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3bb8c.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3bb8c.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -std=c99 -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3bb8c.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3bb8c.build/Objects-normal/x86_64/feature_tests.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.c -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3bb8c.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_3bb8c normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3bb8c.build/Objects-normal/x86_64/cmTC_3bb8c.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3bb8c.build/Objects-normal/x86_64/cmTC_3bb8c_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3bb8c.build/Objects-normal/x86_64/cmTC_3bb8c_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_3bb8c
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_a4f71" "-configuration" "Debug"
+=== BUILD TARGET cmTC_a4f71 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a4f71.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a4f71.build/Objects-normal/x86_64/cmTC_a4f71.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_a4f71.build/Objects-normal/x86_64/feature_tests.o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a4f71.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a4f71.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -std=c90 -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a4f71.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a4f71.build/Objects-normal/x86_64/feature_tests.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.c -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a4f71.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_a4f71 normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a4f71.build/Objects-normal/x86_64/cmTC_a4f71.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a4f71.build/Objects-normal/x86_64/cmTC_a4f71_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a4f71.build/Objects-normal/x86_64/cmTC_a4f71_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_a4f71
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ad61c" "-configuration" "Debug"
+=== BUILD TARGET cmTC_ad61c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad61c.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad61c.build/Objects-normal/x86_64/cmTC_ad61c.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ad61c.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad61c.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad61c.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad61c.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad61c.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad61c.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTC_ad61c normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad61c.build/Objects-normal/x86_64/cmTC_ad61c.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad61c.build/Objects-normal/x86_64/cmTC_ad61c_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad61c.build/Objects-normal/x86_64/cmTC_ad61c_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_ad61c
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_114fc" "-configuration" "Debug"
+=== BUILD TARGET cmTC_114fc OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTC_114fc normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_114fc
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_114fc -L/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc.LinkFileList -object_path_lto /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a -F/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-278.4
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
+Framework search paths:
+	/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_114fc" "-configuration" "Debug"]
+  ignore line: [=== BUILD TARGET cmTC_114fc OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64]
+  ignore line: [write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_114fc normal x86_64]
+  ignore line: [    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.12]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_114fc]
+  ignore line: [Apple LLVM version 8.1.0 (clang-802.0.42)]
+  ignore line: [Target: x86_64-apple-darwin16.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_114fc -L/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc.LinkFileList -object_path_lto /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a -F/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_114fc -filelist /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc.LinkFileList -object_path_lto /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_114fc -filelist /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc.LinkFileList -object_path_lto /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.12.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Volumes/POMOCNI/c++/tools] ==> ignore
+    arg [gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_114fc] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Volumes/POMOCNI/c++/tools] ==> ignore
+    arg [gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Volumes/POMOCNI/c++/tools] ==> ignore
+    arg [gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Volumes/POMOCNI/c++/tools] ==> ignore
+    arg [gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_114fc.build/Objects-normal/x86_64/cmTC_114fc_dependency_info.dat] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  Framework search paths: [;/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug] ==> [/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  collapse framework dir [/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug] ==> [/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_a3d71" "-configuration" "Debug"
+=== BUILD TARGET cmTC_a3d71 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a3d71.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a3d71.build/Objects-normal/x86_64/cmTC_a3d71.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_a3d71.build/Objects-normal/x86_64/feature_tests.o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a3d71.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a3d71.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -std=c++1z -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a3d71.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a3d71.build/Objects-normal/x86_64/feature_tests.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.cxx -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a3d71.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_a3d71 normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a3d71.build/Objects-normal/x86_64/cmTC_a3d71.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a3d71.build/Objects-normal/x86_64/cmTC_a3d71_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a3d71.build/Objects-normal/x86_64/cmTC_a3d71_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_a3d71
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ca4c2" "-configuration" "Debug"
+=== BUILD TARGET cmTC_ca4c2 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca4c2.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca4c2.build/Objects-normal/x86_64/cmTC_ca4c2.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ca4c2.build/Objects-normal/x86_64/feature_tests.o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca4c2.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca4c2.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -std=c++14 -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca4c2.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca4c2.build/Objects-normal/x86_64/feature_tests.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.cxx -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca4c2.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_ca4c2 normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca4c2.build/Objects-normal/x86_64/cmTC_ca4c2.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca4c2.build/Objects-normal/x86_64/cmTC_ca4c2_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca4c2.build/Objects-normal/x86_64/cmTC_ca4c2_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_ca4c2
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_bf312" "-configuration" "Debug"
+=== BUILD TARGET cmTC_bf312 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bf312.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bf312.build/Objects-normal/x86_64/cmTC_bf312.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_bf312.build/Objects-normal/x86_64/feature_tests.o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bf312.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bf312.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -std=c++11 -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bf312.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bf312.build/Objects-normal/x86_64/feature_tests.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.cxx -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bf312.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_bf312 normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bf312.build/Objects-normal/x86_64/cmTC_bf312.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bf312.build/Objects-normal/x86_64/cmTC_bf312_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bf312.build/Objects-normal/x86_64/cmTC_bf312_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_bf312
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_4afcf" "-configuration" "Debug"
+=== BUILD TARGET cmTC_4afcf OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4afcf.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4afcf.build/Objects-normal/x86_64/cmTC_4afcf.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_4afcf.build/Objects-normal/x86_64/feature_tests.o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4afcf.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4afcf.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -std=c++98 -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4afcf.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4afcf.build/Objects-normal/x86_64/feature_tests.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/feature_tests.cxx -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4afcf.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_4afcf normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4afcf.build/Objects-normal/x86_64/cmTC_4afcf.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4afcf.build/Objects-normal/x86_64/cmTC_4afcf_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4afcf.build/Objects-normal/x86_64/cmTC_4afcf_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_4afcf
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_NO_UNDEFINED_VAR_TEMPLATE succeeded with the following output:
+Change Dir: /Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_6a92b" "-configuration" "Debug"
+=== BUILD TARGET cmTC_6a92b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_6a92b.build/Objects-normal/x86_64
+write-file /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_6a92b.build/Objects-normal/x86_64/cmTC_6a92b.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_6a92b.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.12 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/include -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_6a92b.build/DerivedSources/x86_64 -I/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_6a92b.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -DCOMPILER_SUPPORTS_NO_UNDEFINED_VAR_TEMPLATE -Wno-undefined-var-template -MMD -MT dependencies -MF /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_6a92b.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_6a92b.build/Objects-normal/x86_64/src.dia -c /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/src.cxx -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_6a92b.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTC_6a92b normal x86_64
+    cd "/Volumes/POMOCNI/c++/tools gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp"
+    export MACOSX_DEPLOYMENT_TARGET=10.12
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -F/Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_6a92b.build/Objects-normal/x86_64/cmTC_6a92b.LinkFileList -mmacosx-version-min=10.12 -Xlinker -object_path_lto -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_6a92b.build/Objects-normal/x86_64/cmTC_6a92b_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_6a92b.build/Objects-normal/x86_64/cmTC_6a92b_dependency_info.dat -o /Volumes/POMOCNI/c++/tools\ gui/visual-ts-tools/myTools_c++/cef-mac/CMakeFiles/CMakeTmp/Debug/cmTC_6a92b
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+int main() { return 0; }
