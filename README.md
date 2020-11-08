@@ -1,5 +1,5 @@
 
-# C++ cef client 'Porter'
+# C++ cef client 'web-to-native'
 
 ### Objective
 
@@ -10,6 +10,7 @@
 
   UNDERCONSTRUCT
 
+  cd cef-win
   cmake -G "Visual Studio 16" -A x64 ../cef/cef-project
 
 

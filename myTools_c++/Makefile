@@ -13,3 +13,7 @@ main.exe: $(OBJ_FILES)
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
 		@mkdir -p $(OBJ_DIR)
 		g++ $(CPPFLAGS) $(CXXFLAGS) -c -o $@ $<
+
+clean:
+	rm -f main.exe
+

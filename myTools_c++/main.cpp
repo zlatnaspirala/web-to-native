@@ -2,6 +2,8 @@
 #include <vector>
 #include <stdio.h>
 #include <string>
+#include <stdexcept>
+
 #include "lib/myspace.h"
 using namespace std;
 
@@ -15,6 +17,19 @@ class Rectangle {
 void Rectangle::set_values (int x, int y) {
   width = x;
   height = y;
+}
+
+std::string exec(const char* cmd) {
+    std::array<char, 128> buffer;
+    std::string result;
+    std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd, "r"), pclose);
+    if (!pipe) {
+        throw std::runtime_error("popen() failed!");
+    }
+    while (fgets(buffer.data(), buffer.size(), pipe.get()) != nullptr) {
+        result += buffer.data();
+    }
+    return result;
 }
 
 int main(/**int argc, char *argv[]*/) {
@@ -32,6 +47,10 @@ int main(/**int argc, char *argv[]*/) {
 
   std::string myPlatform = t.getPlatform();
   cout << myPlatform << endl;
+
+  //  exec("cd cef-win")
+
+  cout << exec("cd cef-win") << endl;
 
   return 0;
 
