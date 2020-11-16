@@ -8,8 +8,16 @@
 
 ### Run for win
 
+```bat
+  build-win.bat 
+```
+
+  OR
+
+```bash
   cd cef-win
-  cmake -G "Visual Studio 16" -A x64 ../cef/cef-project
+  cmake -G "Visual Studio 16" -A x64 ../cef
+```
 
 
 ### Project structure ###

@@ -1,7 +1,6 @@
 
-set mypath=%cd%
-@echo %mypath%
+@echo "Ready to generate Visual Studio Project [press any key]"
 Pause
 
-cd %mypath%\cef-win
-cmake -G "Visual Studio 16" -A x64 ../cef/cef-project
+cd cef-win
+cmake -G "Visual Studio 16" -A x64 ../cef
