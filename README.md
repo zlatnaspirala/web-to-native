@@ -19,6 +19,12 @@
   cmake -G "Visual Studio 16" -A x64 ../cef
 ```
 
+### Run for macos:
+
+```bash
+  cd cef-mac
+  cmake -G "Xcode" ../cef
+```
 
 ### Project structure ###
 
