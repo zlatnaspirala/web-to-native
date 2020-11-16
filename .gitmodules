@@ -1,3 +1,3 @@
-[submodule "myTools_c++/cef/cef-project"]
-	path = myTools_c++/cef/cef-project
+[submodule "desktop/cef/"]
+	path = desktop/cef/
 	url = https://bitbucket.org/chromiumembedded/cef-project.git
