@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">web-to-android</string>
+    <string name="addressbar">AddressBar</string>
+    <string name="applicationAddress">https://maximumroulette.com:3000</string>
+</resources>

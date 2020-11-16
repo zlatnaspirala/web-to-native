@@ -6,32 +6,35 @@
  - Help to create native GUI application based on cef.
 
 
-### Status
-
-  UNDERCONSTRUCT
+### Run for win
 
   cd cef-win
   cmake -G "Visual Studio 16" -A x64 ../cef/cef-project
 
 
-### Language c++
-
-I want to try multiplatform build for windowds, mac, linux.
-
 ### Project structure ###
+
+[auto-generated] Folders can be deleted but also you can use 
+ generated instance and make separated project developed 
+ in top dev tools like visual-studio or x-code.
+
+ For simple fullscreen porting we no need any GUI controls.
 
 <pre>
 
-├── project/
-|   ├── public/
+├── root/
+|   ├── desktop/
 |       ├── .vscode/  [auto generated][not important]
-|       ├── cef/ [clone cef]
-|       ├── cef-win/ [cef build for windows]
-|       ├── cef-mac/ [cef build for mac os]
+|       ├── cef/ [clone cef - submodule]
+|       ├── cef-win/ [build - auto-generated]  
+|       ├── cef-mac/ [build - auto-generated]
 ├── .gitignore   [auto generated]
 ├── .gitmodules  [auto generated]
 ├── README.MD  [This file]
 ├── tools.code-workspace  [Workspace for visual code]
 
 </pre>
+
+### Build
+
 
