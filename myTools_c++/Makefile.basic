@@ -1,8 +1,0 @@
-
-default:	main
-
-MYSRC:
-main:
-		g++ -I./lib main.cpp lib/myspace.cpp
-clean:
-		rm -r main.o build/a.out
