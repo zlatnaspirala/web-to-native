@@ -3,9 +3,35 @@
 
 ### Objective
 
- - Help to create native application based on cef implementation.
- - Prepare mobile projects
+ - Help to create on easy way native application based on cef implementation.
+ - Prepare mobile projects works
+ - Make help for better understanding concept of browser applilcation and 
+   directives for editing.
+ - Leave it in native order to be full customized. No globals, defaults, enum
+   and roles except existing roles of building cef.
 
+### Generally 3 ways to use this project.
+
+  - For advanced level programmers 
+    Change core of cef functional implementation.
+    Build native wrapper.
+    Run some extra ordinary code.
+  - For middle level
+    Build cef project (any platform).
+    Exclude builded project.
+    Edit project with VisualStudio, xCode etc...
+    Create and connect web part with project.(set home page url)
+    Build binaries.
+  - For everyone
+    Build cef.
+    Connect with web part (set home page url)
+    Build Project.
+
+### Instalaltion
+
+```js
+git clone --recurse-submodules -j8 https://github.com/zlatnaspirala/web-to-native
+```
 
 ### Project structure ###
 
