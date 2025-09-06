@@ -33,7 +33,14 @@
 git clone --recurse-submodules -j8 https://github.com/zlatnaspirala/web-to-native
 ```
 
-### Project structure ###
+Update:
+https://cef-builds.spotifycdn.com/index.html
+
+```bash
+  git submodule update --remote
+```
+
+### Project structure
 
 [auto-generated] Folders can be deleted but also you can use 
  generated instance and make separated project developed 

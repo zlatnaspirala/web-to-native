@@ -56,14 +56,15 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4100;4127;4244;4481;4512;4701;4702;4996</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4100;4127;4244;4324;4481;4512;4701;4702;4996</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -72,15 +73,15 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_HAS_ITERATOR_DEBUGGING=0;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_HAS_ITERATOR_DEBUGGING=0;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -100,7 +101,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\..\Debug\shared.lib;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64\Debug\libcef.lib;..\..\libcef_dll_wrapper\Debug\libcef_dll_wrapper.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\Debug\shared.lib;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64\Debug\libcef.lib;..\..\libcef_dll_wrapper\Debug\libcef_dll_wrapper.lib;comctl32.lib;gdi32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64\Debug\cef_sandbox.lib;Advapi32.lib;dbghelp.lib;Delayimp.lib;OleAut32.lib;PowrProf.lib;Propsys.lib;psapi.lib;SetupAPI.lib;Shell32.lib;version.lib;wbemuuid.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -116,13 +117,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4100;4127;4244;4481;4512;4701;4702;4996</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4100;4127;4244;4324;4481;4512;4701;4702;4996</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -132,15 +134,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -160,7 +162,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\..\Release\shared.lib;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64\Release\libcef.lib;..\..\libcef_dll_wrapper\Release\libcef_dll_wrapper.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\Release\shared.lib;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64\Release\libcef.lib;..\..\libcef_dll_wrapper\Release\libcef_dll_wrapper.lib;comctl32.lib;gdi32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64\Release\cef_sandbox.lib;Advapi32.lib;dbghelp.lib;Delayimp.lib;OleAut32.lib;PowrProf.lib;Propsys.lib;psapi.lib;SetupAPI.lib;Shell32.lib;version.lib;wbemuuid.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>

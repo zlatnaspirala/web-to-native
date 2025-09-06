@@ -9,10 +9,30 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="481dp"
+        android:layout_height="35dp"
         android:orientation="horizontal"
-        android:visibility="invisible">
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="6dp">
+
+        <Button
+            android:id="@+id/buttonGotoGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_alignParentTop="true"
+            android:text="@string/addressbar"
+            tools:ignore="UnknownId" />
+
+        <Button
+            android:id="@+id/buttonGoBack"
+            android:layout_width="48dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:text="R"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/button_LoadLocal"
@@ -24,24 +44,6 @@
             android:text="Load local"
             android:textColor="#2196F3"
             tools:ignore="MissingConstraints" />
-
-        <Button
-            android:id="@+id/buttonGoBack"
-            android:layout_width="99dp"
-            android:layout_height="39dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:text="Back"
-            tools:ignore="MissingConstraints" />
-
-        <Button
-            android:id="@+id/buttonGotoGoogle"
-            android:layout_width="187dp"
-            android:layout_height="39dp"
-            android:layout_alignParentTop="true"
-            android:text="@string/addressbar"
-            tools:ignore="UnknownId" />
     </LinearLayout>
 
     <WebView
@@ -51,9 +53,12 @@
         android:layout_below="@+id/buttonGoBack"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout">
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        tools:ignore="NotSibling">
 
     </WebView>
 

@@ -24,24 +24,24 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vc
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cef_gtest", "third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64\tests\gtest\cef_gtest.vcxproj", "{284F4367-7B5E-32F3-95B1-5A2906242596}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cef_gtest", "third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64\tests\gtest\cef_gtest.vcxproj", "{284F4367-7B5E-32F3-95B1-5A2906242596}"
 	ProjectSection(ProjectDependencies) = postProject
 		{62A11B20-6434-3273-833E-6157632E4F30} = {62A11B20-6434-3273-833E-6157632E4F30}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cefclient", "third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64\tests\cefclient\cefclient.vcxproj", "{9FC0819C-621C-377C-B198-802A9F00AB85}"
-	ProjectSection(ProjectDependencies) = postProject
-		{62A11B20-6434-3273-833E-6157632E4F30} = {62A11B20-6434-3273-833E-6157632E4F30}
-		{F85847AD-FEB8-3344-B94A-3876998590F0} = {F85847AD-FEB8-3344-B94A-3876998590F0}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cefsimple", "third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64\tests\cefsimple\cefsimple.vcxproj", "{327AE136-7FB7-3CC6-81C1-35638E500F42}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cefclient", "third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64\tests\cefclient\cefclient.vcxproj", "{9FC0819C-621C-377C-B198-802A9F00AB85}"
 	ProjectSection(ProjectDependencies) = postProject
 		{62A11B20-6434-3273-833E-6157632E4F30} = {62A11B20-6434-3273-833E-6157632E4F30}
 		{F85847AD-FEB8-3344-B94A-3876998590F0} = {F85847AD-FEB8-3344-B94A-3876998590F0}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ceftests", "third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64\tests\ceftests\ceftests.vcxproj", "{829B67B9-3DAA-3AF7-8755-AA03E29FA264}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cefsimple", "third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64\tests\cefsimple\cefsimple.vcxproj", "{327AE136-7FB7-3CC6-81C1-35638E500F42}"
+	ProjectSection(ProjectDependencies) = postProject
+		{62A11B20-6434-3273-833E-6157632E4F30} = {62A11B20-6434-3273-833E-6157632E4F30}
+		{F85847AD-FEB8-3344-B94A-3876998590F0} = {F85847AD-FEB8-3344-B94A-3876998590F0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ceftests", "third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64\tests\ceftests\ceftests.vcxproj", "{829B67B9-3DAA-3AF7-8755-AA03E29FA264}"
 	ProjectSection(ProjectDependencies) = postProject
 		{62A11B20-6434-3273-833E-6157632E4F30} = {62A11B20-6434-3273-833E-6157632E4F30}
 		{284F4367-7B5E-32F3-95B1-5A2906242596} = {284F4367-7B5E-32F3-95B1-5A2906242596}

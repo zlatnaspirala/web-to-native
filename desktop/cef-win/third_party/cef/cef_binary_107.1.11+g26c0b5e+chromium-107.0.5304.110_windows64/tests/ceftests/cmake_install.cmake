@@ -1,4 +1,4 @@
-# Install script for directory: G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/tests/ceftests
+# Install script for directory: G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/tests/ceftests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -52,14 +52,15 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4100;4127;4244;4481;4512;4701;4702;4996</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4100;4127;4244;4324;4481;4512;4701;4702;4996</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -68,15 +69,15 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_HAS_ITERATOR_DEBUGGING=0;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_HAS_ITERATOR_DEBUGGING=0;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,7 +87,7 @@
     <PostBuildEvent>
       <Message>														</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Debug/chrome_elf.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/chrome_elf.dll
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Debug/chrome_elf.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/chrome_elf.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -95,7 +96,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Debug/d3dcompiler_47.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/d3dcompiler_47.dll
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Debug/libcef.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/libcef.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -104,7 +105,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Debug/libcef.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/libcef.dll
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Debug/libEGL.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/libEGL.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,7 +114,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Debug/libEGL.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/libEGL.dll
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Debug/libGLESv2.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/libGLESv2.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -122,7 +123,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Debug/libGLESv2.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/libGLESv2.dll
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Debug/snapshot_blob.bin G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/snapshot_blob.bin
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,7 +132,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Debug/snapshot_blob.bin G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/snapshot_blob.bin
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Debug/v8_context_snapshot.bin G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/v8_context_snapshot.bin
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -140,7 +141,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Debug/v8_context_snapshot.bin G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/v8_context_snapshot.bin
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Debug/vk_swiftshader.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/vk_swiftshader.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,7 +150,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Debug/swiftshader G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/swiftshader
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Debug/vk_swiftshader_icd.json G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/vk_swiftshader_icd.json
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -158,7 +159,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/cef.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/cef.pak
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Debug/vulkan-1.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/vulkan-1.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -167,7 +168,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/cef_100_percent.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/cef_100_percent.pak
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Debug/d3dcompiler_47.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/d3dcompiler_47.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -176,7 +177,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/cef_200_percent.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/cef_200_percent.pak
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Resources/chrome_100_percent.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/chrome_100_percent.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,7 +186,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/cef_extensions.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/cef_extensions.pak
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Resources/chrome_200_percent.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/chrome_200_percent.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -194,7 +195,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/devtools_resources.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/devtools_resources.pak
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Resources/resources.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/resources.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -203,7 +204,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/icudtl.dat G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/icudtl.dat
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Resources/icudtl.dat G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/icudtl.dat
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -212,7 +213,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/locales G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/locales
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Resources/locales G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Debug/locales
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -227,13 +228,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4100;4127;4244;4481;4512;4701;4702;4996</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4100;4127;4244;4324;4481;4512;4701;4702;4996</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -243,15 +245,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef;G:\web_server\xampp\htdocs\PRIVATE_SERVER\cpp-wrap\test-make-for-cpp\desktop\cef\third_party\cef\cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -261,7 +263,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>														</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Release/chrome_elf.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/chrome_elf.dll
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Release/chrome_elf.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/chrome_elf.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -270,7 +272,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Release/d3dcompiler_47.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/d3dcompiler_47.dll
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Release/libcef.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/libcef.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -279,7 +281,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Release/libcef.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/libcef.dll
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Release/libEGL.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/libEGL.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -288,7 +290,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Release/libEGL.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/libEGL.dll
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Release/libGLESv2.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/libGLESv2.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -297,7 +299,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Release/libGLESv2.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/libGLESv2.dll
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Release/snapshot_blob.bin G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/snapshot_blob.bin
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -306,7 +308,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Release/snapshot_blob.bin G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/snapshot_blob.bin
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Release/v8_context_snapshot.bin G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/v8_context_snapshot.bin
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -315,7 +317,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Release/v8_context_snapshot.bin G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/v8_context_snapshot.bin
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Release/vk_swiftshader.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/vk_swiftshader.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -324,7 +326,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Release/swiftshader G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/swiftshader
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Release/vk_swiftshader_icd.json G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/vk_swiftshader_icd.json
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -333,7 +335,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/cef.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/cef.pak
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Release/vulkan-1.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/vulkan-1.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -342,7 +344,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/cef_100_percent.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/cef_100_percent.pak
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Release/d3dcompiler_47.dll G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/d3dcompiler_47.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -351,7 +353,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/cef_200_percent.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/cef_200_percent.pak
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Resources/chrome_100_percent.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/chrome_100_percent.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -360,7 +362,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/cef_extensions.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/cef_extensions.pak
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Resources/chrome_200_percent.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/chrome_200_percent.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -369,7 +371,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/devtools_resources.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/devtools_resources.pak
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Resources/resources.pak G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/resources.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -378,7 +380,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/icudtl.dat G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/icudtl.dat
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Resources/icudtl.dat G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/icudtl.dat
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -387,7 +389,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_81.2.24+gc0b313d+chromium-81.0.4044.113_windows64/Resources/locales G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/locales
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef/third_party/cef/cef_binary_107.1.11+g26c0b5e+chromium-107.0.5304.110_windows64/Resources/locales G:/web_server/xampp/htdocs/PRIVATE_SERVER/cpp-wrap/test-make-for-cpp/desktop/cef-win/Release/locales
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
