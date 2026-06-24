@@ -34,7 +34,6 @@ class MainActivity : FragmentActivity() {
         s.allowFileAccessFromFileURLs = true
         // s.mixedContentMode = WebSettings.MIXED_CONTENT_ALWAYS_ALLOW
         // webView.loadUrl("https://maximumroulette.com/apps/webgpu/examples.html")
-        // webView.loadUrl("chrome://flags")
         webView.webViewClient = object : WebViewClient() {
             override fun onPageFinished(view: WebView, url: String) {
                 view.evaluateJavascript("navigator.gpu ? 'GPU EXISTS' : 'NO GPU'") { result ->
@@ -47,7 +46,7 @@ class MainActivity : FragmentActivity() {
         }
 
         webView.loadUrl("https://192.168.0.33/PRIVATE_SERVER/me/meGPU/matrix-engine-wgpu/public/tv-10.html")
-        webView.loadUrl("https://maximumroulette.com/apps/webgpu/tv-10.html")
+//        webView.loadUrl("https://maximumroulette.com/apps/webgpu/tv-10.html")
     }
 
     override fun onBackPressed() {
